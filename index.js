@@ -4,6 +4,7 @@ import { findPrioritySum, findBadgePrioritySum } from './days/day-03.js';
 import { findFullyContainedPairs, findOverlappingPairs } from './days/day-04.js';
 import { moveCrates, moveCratesRev } from './days/day-05.js';
 import { determineStartOfPacket, determineStartOfMessage } from './days/day-06.js';
+import { sumLargeDirectories, findDirectoryToDelete } from './days/day-07.js';
 // import { a, b } from './days/day-xx.js';
 
 // Day 1
@@ -28,4 +29,8 @@ import { determineStartOfPacket, determineStartOfMessage } from './days/day-06.j
 
 // Day 6
 // determineStartOfPacket();
-determineStartOfMessage();
+// determineStartOfMessage();
+
+// Day 7
+// sumLargeDirectories();
+findDirectoryToDelete();

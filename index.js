@@ -5,7 +5,7 @@ import { findFullyContainedPairs, findOverlappingPairs } from './days/day-04.js'
 import { moveCrates, moveCratesRev } from './days/day-05.js';
 import { determineStartOfPacket, determineStartOfMessage } from './days/day-06.js';
 import { sumLargeDirectories, findDirectoryToDelete } from './days/day-07.js';
-// import { a, b } from './days/day-xx.js';
+import { findVisibleTrees, findScenicTree } from './days/day-08.js';
 
 // Day 1
 // findMaxTotal();
@@ -33,4 +33,8 @@ import { sumLargeDirectories, findDirectoryToDelete } from './days/day-07.js';
 
 // Day 7
 // sumLargeDirectories();
-findDirectoryToDelete();
+// findDirectoryToDelete();
+
+// Day 8
+// findVisibleTrees();
+findScenicTree();

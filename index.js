@@ -6,6 +6,7 @@ import { moveCrates, moveCratesRev } from './days/day-05.js';
 import { determineStartOfPacket, determineStartOfMessage } from './days/day-06.js';
 import { sumLargeDirectories, findDirectoryToDelete } from './days/day-07.js';
 import { findVisibleTrees, findScenicTree } from './days/day-08.js';
+import { findTailPositions, findNinthTail } from './days/day-09.js';
 
 // Day 1
 // findMaxTotal();
@@ -37,4 +38,8 @@ import { findVisibleTrees, findScenicTree } from './days/day-08.js';
 
 // Day 8
 // findVisibleTrees();
-findScenicTree();
+// findScenicTree();
+
+// Day 9
+// findTailPositions();
+findNinthTail();

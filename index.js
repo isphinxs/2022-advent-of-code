@@ -7,6 +7,7 @@ import { determineStartOfPacket, determineStartOfMessage } from './days/day-06.j
 import { sumLargeDirectories, findDirectoryToDelete } from './days/day-07.js';
 import { findVisibleTrees, findScenicTree } from './days/day-08.js';
 import { findTailPositions, findNinthTail } from './days/day-09.js';
+import { findSignalStrengths, renderImage } from './days/day-10.js';
 
 // Day 1
 // findMaxTotal();
@@ -42,4 +43,8 @@ import { findTailPositions, findNinthTail } from './days/day-09.js';
 
 // Day 9
 // findTailPositions();
-findNinthTail();
+// findNinthTail();
+
+// Day 10
+// findSignalStrengths();
+renderImage();
